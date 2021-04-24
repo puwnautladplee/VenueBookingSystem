@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+*{
+ margin : 0 ;
+ padding : 0 ;
+ box-sizing: border-box;
+}
+body{
+ font-family: Lato;
+ background: #B9BDC8;
+}
+.container{
+ max-width: 100% !important;
+ padding: 123px 96px 126px 96px !important;
+}
+.title{
+ text-align: center ;
+}
+.bg{
+ padding : 4rem ;
+ background: #46529D;
+}
+h1{
+ line-height: 100%;
+ /* identical to box height, or 64px */
+ color: #FFFFFF;
+}
+.room{
+ background: #4D59A1;
+}
+
+.txtalert{
+ width: 100%;
+ color: #fb4343;
+ padding-left: 1rem;
+ margin-top: 0.3rem;
+}
+
+#ui-datepicker-div{
+ z-index: 9999 !important;
+}
+
+.bg-left{
+ /* background: #46529D; */
+ background: linear-gradient(180deg, #46529D 67%, #4D59A1 50%);
+ min-height : 1004px ;
+}
+
+/* .bg-right{
+
+} */
+.box-detail{
+ padding-left:90px
+}
+.roomnumber{
+ background: #2EBAEE;
+ display: flex;
+ height:135px;
+}
+.titleroom{
+ margin-left:48px;
+ padding-top: 56px;
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 54px;
+ line-height: 100%;
+}
+.titletype{
+ background: #EFEEEC;
+ text-transform: uppercase;
+ height:135px;
+ padding-left: 64px;
+}
+
+.ultype{
+ font-family: Roboto;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0em;
+ text-align: left;
+ margin-top:83px;
+ list-style: none;
+ display: flex;
+}
+
+.ultype li {
+ display:inline-block;
+ margin-right: 75px ;
+ padding-bottom: 1.6rem;
+ opacity: 0.5;
+}
+.ultype li a{
+ position: relative;
+ color: #000000 !important; ;
+ text-decoration: none
+}
+
+b{
+ display:none;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ bottom: -28px;
+ width: 51px;
+ color: #000000 !important;
+ border-bottom: 4px solid #707FDD;
+ box-shadow: 0px -1px 16px rgba(112, 127, 221, 0.75);
+}
+.liactive b{
+ display: block;
+}
+.txtp{
+ margin-top: 125px;
+ color: #FFFFFF;
+}
+
+.txtday{
+ font-weight: 300;
+ font-size: 64px;
+ line-height: 100%;
+ /* identical to box height, or 64px */
+ color: #FFFFFF;
+ opacity: 0.5;
+ margin-top: 58px;
+}
+
+.txtdate{
+font-weight: 300;
+font-size: 64px;
+/* identical to box height, or 64px */
+color: #FFFFFF;
+}
+
+.boxlistdetailtoday{
+ margin-top:90px;
+}
+
+.listdetailtoday{
+ list-style: none;
+}
+.listdetailtoday li{
+ margin-top:38px;
+}
+.txttime{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 100%;
+ color: #FFFFFF;
+ opacity: 0.5;
+ margin-bottom: 8px !important;
+}
+
+.txttitle{
+ color: #FFFFFF; 
+ font-family: Roboto;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20px;
+ letter-spacing: 0em;
+ text-align: left;
+}
+
+.boxlistdetails{
+ background: #FFFFFF;
+ /* height: 869px; */
+ min-height: 869px;
+ /* overflow-y : auto */
+}
+.titletimeline{
+ position: relative;
+ padding : 15px 0px 14px 94px;
+ margin-top : 78px ;
+ background: #F7F7F7;
+ border: 1px solid #ECECEC;
+ box-sizing: border-box;
+ z-index: 1;
+
+ font-family: Roboto;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 18px;
+ letter-spacing: 0em;
+ text-align: left;
+}
+.timeline {
+ position: relative;
+ padding: 1em 0;
+}
+
+.timeline:before {
+ position: absolute;
+ left: 59px;
+ top: 0;
+ content: ' ';
+ display: block;
+ width: 1px;
+ min-height: 869px;
+ height: -webkit-fill-available;
+ margin-left: -3px;
+ background: #ECECEC;
+}
+
+.listtimeline{
+ list-style-type: none;
+}
+
+.listtimeline li {
+ /* padding: 1em 0; */
+ margin-left: 59px;
+}
+
+.listtimeline li:after {
+ content: "";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+
+.detailevent {
+ position: relative;
+}
+
+.wrapper {
+ width: 100%;
+ position: relative;
+ display: inline-block;
+ 
+ text-align: center;
+}
+
+.point {
+ position: relative;
+ display: inline;
+ padding: 6px 10px;
+ border-radius: 5px;
+ font-weight: 600;
+ text-align: left;
+}
+
+.point p {
+ color : #000000 !important
+}
+.detailevent .point:before {
+ position: absolute;
+ top: 35%;
+ right: -40px;
+ left: -378px ;
+ content: ' ';
+ display: block;
+ width: 10px;
+ height: 10px;
+ margin-top: -10px;
+
+ border-radius: 10px;
+ z-index: 10;
+}
+
+.point1:before{
+ background: #3DC7D2;
+}
+.point2:before{
+ background: #23CF5F;
+}
+.point3:before{
+ background: #F3814A;
+}
+.detailevent .time-wrapper {
+ float: right;
+}
+
+
+.no-event{
+ text-align:center;
+ font-size:18px;
+ padding : 200px
+}

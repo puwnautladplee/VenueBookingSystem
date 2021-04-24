@@ -1,0 +1,24 @@
+{
+  "lockfileVersion": 1,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "venuebookingsystem",
+  "description": "Venue Booking System คือระบบจองห้อง สามารถจองห้องและดูรายละเอียดของแต่ละห้องได้",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puwnautladplee/projectforviz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puwnautladplee/projectforviz/issues"
+  },
+  "homepage": "https://github.com/puwnautladplee/projectforviz#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
